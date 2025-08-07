@@ -1,16 +1,80 @@
-# my_portfolio
+# Developer Portfolio
 
-A new Flutter project.
+## Description
+This is a professionally designed and responsive developer portfolio to showcase skills, projects, and experience.  
+It serves as a personal brand page and includes detailed information about several projects with elegant UI, demo videos, and screenshots.  
 
-## Getting Started
+Ideal for freelance applications, job hunting, and presenting your work online.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
+- Flutter
+- Flutter Web
+- Getx
+- GitHub Pages 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshots
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Ahmed2020Ebrahim/developer-Portfolio/refs/heads/master/assets/portfolio_images/1.jpg" width="100%" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Ahmed2020Ebrahim/developer-Portfolio/refs/heads/master/assets/portfolio_images/2.jpg" width="100%" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Ahmed2020Ebrahim/developer-Portfolio/refs/heads/master/assets/portfolio_images/3.jpg" width="100%" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Ahmed2020Ebrahim/developer-Portfolio/refs/heads/master/assets/portfolio_images/4.jpg" width="100%" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Ahmed2020Ebrahim/developer-Portfolio/refs/heads/master/assets/portfolio_images/5.jpg" width="100%" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Ahmed2020Ebrahim/developer-Portfolio/refs/heads/master/assets/portfolio_images/6.jpg" width="100%" />
+    </td>
+  </tr>
+</table>
+
+
+---
+
+## 📂 Project Structure
+
+<pre>
+lib/
+├── bindings/
+├── common/
+├── constants/
+├── controllers/
+├── helpers/
+├── pages/
+├── sections/
+├── app.dart
+├── main.dart
+</pre>
+
+
+
+## Contact
+For any inquiries or feedback, feel free to reach out:
+<br>
+📧 Email: [ahibrahime8@gmail.com](mailto:ahibrahime8@gmail.com) 
+<br>
+💼 LinkedIn: [https://www.linkedin.com/in/ahmed-ibrahime-040028248](https://www.linkedin.com/in/ahmed-ibrahime-040028248)
+
