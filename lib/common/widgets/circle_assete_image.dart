@@ -27,7 +27,7 @@ class CircleAssetImage extends StatelessWidget {
       ),
       child: ClipRRect(
         borderRadius: BorderRadius.circular(radius),
-        child: Image.asset(imagePath, width: size, height: size, fit: BoxFit.scaleDown),
+        child: Image.asset(imagePath, width: size, height: size, fit: BoxFit.cover),
       ),
     );
   }

@@ -32,7 +32,7 @@ class AboutMeSectionMobile extends StatelessWidget {
           Container(
             alignment: Alignment.center,
             child: CircleAssetImage(
-              imagePath: "assets/images/my_image.jpg",
+              imagePath: "assets/images/my_image_2.jpg",
               radius: isMobile ? 150 : 200,
             ),
           ),

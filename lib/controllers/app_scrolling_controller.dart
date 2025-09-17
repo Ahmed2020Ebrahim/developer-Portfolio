@@ -9,6 +9,7 @@ class AppScrollingController extends GetxController {
   // Section keys
   final aboutKey = GlobalKey();
   final skillsKey = GlobalKey();
+  final servicesKey = GlobalKey();
   final projectsKey = GlobalKey();
   final educationKey = GlobalKey();
   final contactKey = GlobalKey();
@@ -34,6 +35,7 @@ class AppScrollingController extends GetxController {
 
     _getOffset(aboutKey);
     final skillsOffset = _getOffset(skillsKey);
+    final servicesOffset = _getOffset(servicesKey);
     final projectsOffset = _getOffset(projectsKey);
     final educationOffset = _getOffset(educationKey);
     final contactOffset = _getOffset(contactKey);
@@ -45,6 +47,8 @@ class AppScrollingController extends GetxController {
       currentSection.value = Section.education;
     } else if (offset >= projectsOffset - 200) {
       currentSection.value = Section.projects;
+    } else if (offset >= servicesOffset - 200) {
+      currentSection.value = Section.services;
     } else if (offset >= skillsOffset - 200) {
       currentSection.value = Section.skills;
     } else {
@@ -75,6 +79,9 @@ class AppScrollingController extends GetxController {
         break;
       case Section.skills:
         key = skillsKey;
+        break;
+      case Section.services:
+        key = servicesKey;
         break;
       case Section.projects:
         key = projectsKey;

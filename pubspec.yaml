@@ -33,9 +33,11 @@ flutter:
 
   assets:
     - assets/images/
+    - assets/logos/
     - assets/projects/ushop/
     - assets/projects/ushop_dashboard/
     - assets/projects/pregnant_mom/
+    - assets/projects/how_to_do/
     - assets/logos/
     - assets/icons/
     - assets/icons/svg/

@@ -64,6 +64,26 @@ class MobileLayout extends StatelessWidget {
                   scrollController.scrollTo(Section.skills);
                 },
               ),
+              //divider
+              ListTile(
+                title: Text(
+                  "Services",
+                  style: TextStyle(
+                    fontSize: 22,
+                    color: Colors.white,
+                    fontWeight:
+                        scrollController.isCurrentSection(Section.services)
+                            ? FontWeight.w700
+                            : FontWeight.w400,
+                    fontFamily: "Montserrat",
+                  ),
+                ),
+                titleAlignment: ListTileTitleAlignment.center,
+                onTap: () {
+                  Get.back(); // Close the drawer
+                  scrollController.scrollTo(Section.services);
+                },
+              ),
 
               //divider
               ListTile(

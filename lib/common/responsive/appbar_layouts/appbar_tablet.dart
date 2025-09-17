@@ -16,7 +16,6 @@ class AppbarTablet extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Expanded(flex: 1, child: Divider(color: AppColors.white, height: 1)),
           Expanded(
             flex: 5,
             child: Obx(
@@ -52,6 +51,24 @@ class AppbarTablet extends StatelessWidget {
                           fontSize: 21,
                           fontWeight:
                               scrollController.isCurrentSection(Section.skills)
+                                  ? FontWeight.w300
+                                  : FontWeight.w200,
+                          fontFamily: "Montserrat",
+                        ),
+                      ),
+                    ),
+                  ),
+                  TextButton(
+                    onPressed: () => scrollController.scrollTo(Section.services),
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 8),
+                      child: Text(
+                        "Services",
+                        style: TextStyle(
+                          color: AppColors.white,
+                          fontSize: 21,
+                          fontWeight:
+                              scrollController.isCurrentSection(Section.services)
                                   ? FontWeight.w300
                                   : FontWeight.w200,
                           fontFamily: "Montserrat",

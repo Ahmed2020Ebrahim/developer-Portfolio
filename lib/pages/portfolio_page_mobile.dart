@@ -3,11 +3,13 @@ import 'package:get/get.dart';
 import 'package:my_portfolio/common/widgets/ended_divider.dart';
 import 'package:my_portfolio/sections/contact/contact_section_mobile.dart';
 import 'package:my_portfolio/sections/education/education_section_mobile.dart';
-import 'package:my_portfolio/sections/projects/projects_section_mobile.dart';
 import 'package:my_portfolio/sections/skills/skills_section_mobile.dart';
 import '../controllers/app_scrolling_controller.dart';
 import '../sections/about_me/about_me_section_mobile.dart';
+import '../sections/footer/footer_section_responsive.dart';
 import '../sections/intro/intro_section_responsive.dart';
+import '../sections/projects/project_section_responsive.dart';
+import '../sections/services/services_section_responsive.dart';
 
 class PortfolioPageMobile extends StatelessWidget {
   const PortfolioPageMobile({super.key});
@@ -58,8 +60,19 @@ class PortfolioPageMobile extends StatelessWidget {
 
           //
           //
+          //services section
+          ServicesSectionResponsive(),
+          // space
+          SizedBox(height: 75),
+          // divider at the end
+          EndedDivider(),
+          // space
+          SizedBox(height: 200),
+
+          //
+          //
           //projects section
-          ProjectsSectionMobile(),
+          ProjectSectionResponsive(),
           //space
           SizedBox(height: 125),
           //divider at the end
@@ -83,11 +96,12 @@ class PortfolioPageMobile extends StatelessWidget {
           //contact section
           ContactSectionMobile(),
           //space
-          SizedBox(height: 75),
-          //divider at the end
-          EndedDivider(),
-          //space
-          SizedBox(height: 200),
+          SizedBox(height: 100),
+
+          //
+          //
+          //footer section
+          FooterSectionResponsive(),
         ],
       ),
     );

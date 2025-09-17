@@ -1,1 +1,1 @@
-enum Section { about, skills, projects, education, contact }
+enum Section { about, skills, services, projects, education, contact }

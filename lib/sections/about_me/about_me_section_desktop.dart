@@ -24,7 +24,7 @@ class AboutMeSectionDesktop extends StatelessWidget {
                 flex: 1,
                 child: Container(
                   alignment: Alignment.center,
-                  child: CircleAssetImage(imagePath: "assets/images/my_image.jpg", radius: 220),
+                  child: CircleAssetImage(imagePath: "assets/images/my_image_2.jpg", radius: 220),
                 ),
               ),
               Expanded(

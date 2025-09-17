@@ -3,11 +3,13 @@ import 'package:get/get.dart';
 import 'package:my_portfolio/common/widgets/ended_divider.dart';
 import 'package:my_portfolio/sections/contact/contact_section_desktop.dart';
 import 'package:my_portfolio/sections/education/education_section_tablet.dart';
-import 'package:my_portfolio/sections/projects/projects_section_tablet.dart';
 
 import '../controllers/app_scrolling_controller.dart';
 import '../sections/about_me/about_me_section_tablet.dart';
+import '../sections/footer/footer_section_responsive.dart';
 import '../sections/intro/intro_section_responsive.dart';
+import '../sections/projects/project_section_responsive.dart';
+import '../sections/services/services_section_responsive.dart';
 import '../sections/skills/skills_section_tablet.dart';
 
 class PortfolioPageTablet extends StatelessWidget {
@@ -56,8 +58,19 @@ class PortfolioPageTablet extends StatelessWidget {
 
           //
           //
+          //services section
+          ServicesSectionResponsive(),
+          // space
+          SizedBox(height: 75),
+          // divider at the end
+          EndedDivider(),
+          // space
+          SizedBox(height: 200),
+
+          //
+          //
           //projects section
-          ProjectsSectionTablet(),
+          ProjectSectionResponsive(),
           //space
           SizedBox(height: 75),
           //divider at the end
@@ -81,11 +94,12 @@ class PortfolioPageTablet extends StatelessWidget {
           //contact section
           ContactSectionDesktop(),
           //space
-          SizedBox(height: 75),
-          //divider at the end
-          EndedDivider(),
-          //space
-          SizedBox(height: 200),
+          SizedBox(height: 100),
+
+          //
+          //
+          //footer section
+          FooterSectionResponsive(),
         ],
       ),
     );

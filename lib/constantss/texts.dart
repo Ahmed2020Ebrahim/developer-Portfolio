@@ -19,7 +19,7 @@ class Texts {
   static const String linkedIn = "https://www.linkedin.com/in/ahmed-ibrahime-040028248";
   static const String github = "https://github.com/Ahmed2020Ebrahim";
   static const String cv =
-      "https://drive.google.com/file/d/16SiGdBpK3VAxYez40lMU3RpGcl3HdgW9/view?usp=sharing";
+      "https://drive.google.com/file/d/1onsDl44_SEV7NlFIqcm6VPASwlgpU5fQ/view?usp=sharing";
 
   static const String frontEndSkills = "1 - Frontend (Flutter SDK)";
   static const List<String> frontEndSkillsList = [
@@ -57,52 +57,37 @@ class Texts {
     "Debugging and Profiling",
   ];
 
-  static const List<String> ushop = [
+  static const List<String> ushopImages = [
     "assets/projects/ushop/1.jpg",
     "assets/projects/ushop/2.jpg",
     "assets/projects/ushop/3.jpg",
     "assets/projects/ushop/4.jpg",
     "assets/projects/ushop/5.jpg",
-    "assets/projects/ushop/6.jpg",
-    "assets/projects/ushop/7.jpg",
-    "assets/projects/ushop/8.jpg",
-    "assets/projects/ushop/9.jpg",
-    "assets/projects/ushop/10.jpg",
-    "assets/projects/ushop/11.jpg",
-    "assets/projects/ushop/12.jpg",
-    "assets/projects/ushop/13.jpg",
   ];
 
-  static const List<String> ushopDashboard = [
+  static const List<String> howTodoImages = [
+    "assets/projects/how_to_do/1.jpg",
+    "assets/projects/how_to_do/2.jpg",
+    "assets/projects/how_to_do/3.jpg",
+    "assets/projects/how_to_do/4.jpg",
+    "assets/projects/how_to_do/5.jpg",
+    "assets/projects/how_to_do/6.jpg",
+  ];
+
+  static const List<String> ushopDashboardImages = [
+    "assets/projects/ushop_dashboard/banner.jpg",
     "assets/projects/ushop_dashboard/1.jpg",
-    "assets/projects/ushop_dashboard/2.jpg",
-    "assets/projects/ushop_dashboard/3.jpg",
     "assets/projects/ushop_dashboard/4.jpg",
     "assets/projects/ushop_dashboard/5.jpg",
-    "assets/projects/ushop_dashboard/6.jpg",
-    "assets/projects/ushop_dashboard/7.jpg",
-    "assets/projects/ushop_dashboard/8.jpg",
-    "assets/projects/ushop_dashboard/9.jpg",
     "assets/projects/ushop_dashboard/10.jpg",
-    "assets/projects/ushop_dashboard/11.jpg",
-    "assets/projects/ushop_dashboard/12.jpg",
-    "assets/projects/ushop_dashboard/13.jpg",
-    "assets/projects/ushop_dashboard/14.jpg",
-    "assets/projects/ushop_dashboard/15.jpg",
   ];
 
-  static const List<String> pregnantMom = [
+  static const List<String> pregnantMomImages = [
+    "assets/projects/pregnant_mom/banner.jpg",
     "assets/projects/pregnant_mom/1.jpg",
     "assets/projects/pregnant_mom/2.jpg",
     "assets/projects/pregnant_mom/3.jpg",
-    "assets/projects/pregnant_mom/4.jpg",
-    "assets/projects/pregnant_mom/5.jpg",
-    "assets/projects/pregnant_mom/6.jpg",
     "assets/projects/pregnant_mom/7.jpg",
-    "assets/projects/pregnant_mom/8.jpg",
-    "assets/projects/pregnant_mom/9.jpg",
-    "assets/projects/pregnant_mom/10.jpg",
-    "assets/projects/pregnant_mom/11.jpg",
   ];
 
   static const ushopDashboardTitle = "U-Shop Dashboard";
@@ -112,6 +97,27 @@ class Texts {
       "Ushop Dashboard is the powerful backend management system for the Ushop e-commerce platform. It allows admins and sellers to efficiently manage products, track orders, monitor sales performance, handle customer inquiries, and gain insights through real-time analytics—all from a user-friendly interface.";
   static const ushopDashboardVideoUrl =
       "https://drive.google.com/file/d/1mWKI58S5Ml0XIfk8QP-Uktj0JZRZVGNx/view?usp=sharing";
+  static const ushopDashboardTechPointsList = [
+    "Developed Ushop Dashboard Web App end-to-end using Flutter Web.",
+    "Designed a responsive, reusable, and animated UI.",
+    "Integrated REST APIs with secure authentication.",
+    "Added real-time analytics and advanced filtering tools.",
+    "Optimized for performance, security, and deployment.",
+  ];
+
+  static const howTodoTitle = "HowTodo";
+  static const howTodoSubtitle = "Flutter , Firebase , Bloc , Cubit ";
+  static const howTodoGithubUrl = "https://github.com/Ahmed2020Ebrahim/HowToDo";
+  static const howTodoDescription =
+      "Stay organized and boost your productivity with HowToDo, the ultimate to-do list app designed for simplicity and efficiency. Whether you are managing daily tasks, planning projects, or keeping track of important deadlines, HowToDo helps you stay on top of everything with ease.";
+  static const howTodoTechPointsList = [
+    "Framework: Flutter (cross-platform for Android, iOS, Web, and Desktop)",
+    "State Management: Bloc & Cubit",
+    "Backend/Database: Firebase Firestore and Local storage using Hive for offline mode",
+    "Authentication: Firebase Authentication (Email/Password, Google ,Facebook ,Apple)",
+    "Push Notifications: Firebase Cloud Messaging for task reminders",
+    "Architecture: Clean Architecture ",
+  ];
 
   static const ushopTitle = "U-Shop";
   static const ushopSubtitle = "Flutter , Firebase , Getx ";
@@ -120,6 +126,13 @@ class Texts {
       "Ushop is a modern e-commerce app designed to make online shopping simple, fast, and enjoyable. Browse a wide range of products, enjoy secure checkout, track your orders in real time, and get exclusive deals—all from the palm of your hand.";
   static const ushopVideoUrl =
       "https://drive.google.com/file/d/17Jf7pmQT5zGOGh5gEnz_iIyzE6B81UkL/view?usp=sharing";
+  static const ushopTechPointsList = [
+    "Developed with Flutter for cross-platform support (Android & iOS) from a single codebase.",
+    "Integrated Firebase services for authentication, real-time database, and push notifications.",
+    "Implemented secure payment gateway integration for smooth checkout.",
+    "Optimized UI/UX with responsive layouts and smooth animations.",
+    "State management with GetX for scalable and maintainable architecture.",
+  ];
 
   static const pregnantMomTitle = "Pregnant Mom";
   static const pregnantMomSubtitle = "Html , Css , Javascript ,PHP , SQL";
@@ -128,4 +141,15 @@ class Texts {
       "this website helps mother in the period of pregnant mother can get notification week by week for sports , medical information , good food , good drinks , tests , warnings , and vedios. mother can communicat with doctors and reserve in doctor clinik . doctors can sign up in the website to help other to find him.";
   static const pregnantMomVideoUrl =
       "https://drive.google.com/file/d/10_GXXhKwAx-oBMXivJaWEFAuLXNJoMY5/view?usp=sharing";
+  static const pregnantMomTechPointsList = [
+    "Custom PHP backend for dynamic content management.",
+
+    "MySQL database for profiles, tips, and tracking data.",
+
+    "Responsive UI with HTML, CSS, and JavaScript.",
+
+    "Secure authentication with password hashing.",
+
+    "Admin panel to manage pregnancy-related articles.",
+  ];
 }

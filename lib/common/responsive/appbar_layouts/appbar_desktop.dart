@@ -60,6 +60,24 @@ class AppbarDesktop extends StatelessWidget {
                     ),
                   ),
                   TextButton(
+                    onPressed: () => scrollController.scrollTo(Section.services),
+                    child: Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 8),
+                      child: Text(
+                        "Services",
+                        style: TextStyle(
+                          color: AppColors.white,
+                          fontSize: 21,
+                          fontWeight:
+                              scrollController.isCurrentSection(Section.services)
+                                  ? FontWeight.w300
+                                  : FontWeight.w200,
+                          fontFamily: "Montserrat",
+                        ),
+                      ),
+                    ),
+                  ),
+                  TextButton(
                     onPressed: () => scrollController.scrollTo(Section.projects),
                     child: Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 8.0),
